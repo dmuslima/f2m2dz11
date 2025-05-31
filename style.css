@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.card{
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+.img{
+    margin-top: 120px;
+    width: 500px;
+}
+.header{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+#searchInput{
+    width: 210px;
+    height: 36px;
+    border-radius: 10px;
+}
+button{
+    width: 210px;
+    height: 36px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
+#typeFilter{
+    width: 210px;
+    height: 36px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}

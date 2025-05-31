@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="img" src="gif-poke.gif.png" alt="">
+    <div class="inputs">
+        <input id="searchInput" type="text" placeholder="search your pokemon">
+        <select id="typeFilter">
+            <option value="">All Types</option>
+            <option value="grass">Grass</option>
+            <option value="poison">Poison</option>
+            <option value="rock">Rock</option>
+            <option value="flying">Flying</option>
+            <option value="fire">Fire</option>
+            <option value="ice">Ice</option>
+            <option value="psychic">Psychic</option>
+            <option value="bug">Bug</option>
+            <option value="water">Water</option>
+            <option value="normal">Normal</option>
+            <option value="ground">Ground</option>
+            <option value="fairy">Fairy</option>
+            <option value="dragon">Dragon</option>
+            <option value="electric">Electric</option>
+            <option value="ghost">Ghost</option>
+            <option value="fighting">Fighting</option>
+        </select>
+
+        <button id="sortButton">sort</button>
+        <button style="background-color: #198754;color: white;" id="searchButton">search</button>
+    </div>
+    </header>
+
+    <div id="pokemonContainer" class="card"></div>
+  <script src="script.js"></script>
+</body>
+</html>
